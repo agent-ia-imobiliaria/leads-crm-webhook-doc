@@ -18,7 +18,7 @@ paths:
     post:
       summary: Receber lead qualificado
       description: |
-        Este endpoint será chamado pelo webhook sempre que um novo lead for gerado.  
+        Este endpoint será chamado pelo webhook sempre que um novo lead for qualificado.  
         O corpo da requisição contém todos os dados relevantes sobre o lead e o imóvel.  
       
         O CRM deve:
